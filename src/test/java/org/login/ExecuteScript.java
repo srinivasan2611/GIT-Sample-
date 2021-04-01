@@ -28,6 +28,7 @@ public class ExecuteScript extends BaseClass {
 		fillTheBox(l.getUserName(), "srinivasan26");
 		fillTheBox(l.getPassWord(), "123456789");
 		toClick(l.getLogin());
+		System.out.println("Test 1 OK");
 	}
 
 	@Test
