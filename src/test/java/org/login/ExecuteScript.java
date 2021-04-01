@@ -43,6 +43,7 @@ public class ExecuteScript extends BaseClass {
 		selectByValue(l.getAdultRoom(), "1");
 		selectByValue(l.getChildRoom(), "0");
 		toClick(l.getSubmit());
+		System.out.println("Test 2 ok");
 	}
 
 	@Test
